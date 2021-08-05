@@ -1,0 +1,10 @@
+Currency Exchange Service 
+http://localhost:6785/currency-exchange/currency-exchange/from/USD/to/CHN
+
+Currency Conversion Service
+http://localhost:6785/currency-conversion/currency-conversion/from/USD/to/CHN/quantity/1000
+http://localhost:6785/currency-conversion/currency-conversion-feign/from/USD/to/CHN/quantity/1000
+
+URL After RouteLocator
+http://localhost:6785/currency-exchange/from/USD/to/CHN
+http://localhost:6785/currency-conversion/from/USD/to/CHN/quantity/1000
